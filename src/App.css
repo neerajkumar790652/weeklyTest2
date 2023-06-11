@@ -1,0 +1,44 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(36, 30, 30);
+  height: 55px;
+  padding:5px;
+  color:white
+}
+.left{
+  width:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right{
+  width:50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.right a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.mainUser{
+  margin: 10px;
+  padding: 15px 30px;
+}
+.subMainUser p{
+  margin-top: 20px;
+}
+.userRadio{
+  margin-top: 30px;
+  display: flex;
+  width:400px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.userTable{
+  margin-top: 20px;
+}
